@@ -1,0 +1,35 @@
+.content-box{
+  width: 980px;
+  height: auto;
+  margin: 0;
+  animation: opacity 2s ease 0s;
+  margin-top: -13px;
+}
+
+.detail-history{
+  padding: 0;
+  margin: 0;
+}
+
+table{
+  margin-top: -23px;
+}
+
+table th{
+  padding: 3px;
+}
+
+table th.Date{
+  background-color: rgb(150, 200, 180);
+  border-radius: 10px;
+}
+
+table td{
+  text-align: center;
+  padding: 3px;
+}
+
+table td.Event{
+  background-color: rgb(200, 150, 180);
+  border-radius: 10px;
+}

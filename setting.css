@@ -1,0 +1,56 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  min-width: 980px;
+}
+
+
+body{
+  background-color: rgb(195,195,195);
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: red
+}
+
+img{
+  border-radius: 10px;
+}
+
+.clear{
+  clear: both;
+}
+
+.main-content{
+  margin-left: 230px;
+}
+
+.content-box,.index-box{
+  float: left;
+}
+
+@keyframes width{
+  from{width: 0%;}
+  to{width: 100%;}
+}
+@keyframes height {
+  from{height: 0px;}
+  to{height: 100px;}
+}
+
+@keyframes opacity {
+  from{opacity: 0;}
+  to{opacity: 1}
+}
+
+@keyframes skelton {
+  from{opacity: 0;}
+  to{opacity: 0;}
+}

@@ -1,0 +1,36 @@
+.content-box{
+  width: 45%;
+  height: auto;
+}
+
+.box-left{
+  margin: 0px 0px 10px 0px;
+}
+
+.box-right{
+  margin: 0px 10px 0px 0px;
+}
+
+.content-box ul li{
+  list-style: initial;
+}
+
+.box-left.topleft{
+  animation: opacity 1s ease 0.1s,
+             skelton 0.1s ease 0s;
+}
+
+.box-right.topright{
+  animation: opacity 1s ease 0.2s,
+             skelton 0.2s ease 0s;
+}
+
+.box-left.bottomleft{
+  animation: opacity 1s ease 0.3s,
+             skelton 0.3s ease 0s;
+}
+
+.box-right.bottomright{
+  animation: opacity 1s ease 0.4s,
+             skelton 0.4s ease 0s;
+}

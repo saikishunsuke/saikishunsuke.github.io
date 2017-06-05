@@ -1,0 +1,30 @@
+.content-box{
+  background-color: rgb(250,250,240);
+  margin: 10px 0px;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.8);
+  border-radius: 5px;
+}
+
+.content-box.box-left{
+  margin-right: 30px;
+}
+
+.content-box p{
+  background-color: #777777;
+  margin: 0px;
+  border-left: 10px solid rgb(100,90,140);
+  border-bottom: 4px solid rgb(100,90,140);
+  color: rgb(195,195,195);
+  font-size: 20px;
+  text-shadow: -1px -1px 1px rgba(85,85,85,0.8);
+  padding-left: 10px;
+}
+
+.content-box img{
+  width: 88%;
+  margin: 30px;
+}
+
+.content-box table{
+  width: 100%;
+}
